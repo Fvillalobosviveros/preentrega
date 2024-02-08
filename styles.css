@@ -248,62 +248,6 @@ button:hover {
 
 
 
-#contacto {
-    text-align: center;
-    padding: 20px;
-}
-
-.formulario-contacto {
-    max-width: 400px;
-    margin: 0 auto;
-}
-
-.formulario-contacto label {
-    display: block;
-    margin-bottom: 5px;
-    color: #004080;
-}
-
-.formulario-contacto input,
-.formulario-contacto textarea {
-    width: 100%;
-    padding: 8px;
-    margin-bottom: 15px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-}
-
-.formulario-contacto button {
-    background-color: #004080;
-    color: #fff;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.formulario-contacto button:hover {
-    background-color: #002d4d;
-}
-
-/* Ajustes para el botón "Volver al Menú Principal" */
-.volver-btn {
-    display: block;
-    margin: 20px auto;
-    padding: 10px;
-    font-size: 16px;
-    background-color: #004080;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.volver-btn:hover {
-    background-color: #002d4d;
-}
-
-
 /*fin contacto*/
 
 
@@ -335,6 +279,7 @@ header {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
 
 .descripcion h2 {
     color: #004080;
