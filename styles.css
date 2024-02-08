@@ -181,7 +181,7 @@ header, nav, section, footer {
 .descripcion-libro {
     font-size: 18px;
     line-height: 1.6;
-    color: #333;
+    color: white;
     margin-top: 10px; /* Añade espacio entre el título y la descripción */
 }
 
@@ -218,7 +218,7 @@ header, nav, section, footer {
 /* Estilos adicionales para la letra bonita y el color en la descripción */
 .descripcion-libro {
     font-family: 'Georgia', serif; /* Cambia la fuente a Georgia para un aspecto más elegante */
-    color: #555;
+    color: white;
     font-size: 18px;
     line-height: 1.6;
     margin-top: 10px;
@@ -350,7 +350,7 @@ header {
 .descripcion p {
     font-size: 16px;
     line-height: 1.6;
-    color: #555;
+    color: white;
 }
 
 .destacado, .explora {
@@ -366,7 +366,7 @@ header {
 .destacado p, .explora p {
     font-size: 16px;
     line-height: 1.6;
-    color: #555;
+    color: white;
 }
 
 /* fin css style informacion pag. principal index*/
@@ -437,7 +437,6 @@ nav a {
 
 }
 
- 
 
 footer {
 
@@ -447,7 +446,7 @@ footer {
 
     background-color: rgba(0, 0, 0, 0.492);
 
-    color: #666;
+    color: white;
 
 }
 
