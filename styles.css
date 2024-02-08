@@ -105,48 +105,31 @@ header, nav, section, footer {
 
 }
 
- 
+ /*inicio catalogo grid*/
+ .grid-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Definimos 3 columnas */
+    grid-template-rows: repeat(3, auto); /* Definimos 3 filas con altura automática */
+    grid-gap: 5px; /* Tamaño de la separación entre las imágenes */
+    justify-items: center; /* Alinea las imágenes horizontalmente */
+    align-items: center; /* Alinea las imágenes verticalmente */
+}
 
+.grid-item{
+    border: 5px solid black;
 
- 
-/*catalogo ok*/
-
-#catalogo {
-
-    text-align: center;
 
 }
 
+    
 
 
-/*catalogo ok*/
 
-.seccion-catalogo {
 
-    margin: 20px auto;
-
-}
 
  
 
-.seccion-catalogo h3 {
-
-    color: #004080;
-
-}
-
- 
-
-.seccion-catalogo img {
-
-    max-width: 100%;
-
-    height: auto;
-
-    margin-bottom: 10px;
-
-}
-
+/*fin catalogo grid*/
 
 /* novedades */
 
