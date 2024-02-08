@@ -29,19 +29,20 @@ body {
 /* Resto de tus estilos ... */
 
 header, nav, section, footer {
+    
 
     margin: 20px auto;
 
     padding: 20px;
 
-    background-color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.492);
 
     border: 1px solid #ddd;
+    
 
 }
 
 
- 
 
 /* ... (Estilos previos) ... */
 
@@ -121,14 +122,9 @@ header, nav, section, footer {
 
 }
 
+
+
     
-
-
-
-
-
- 
-
 /*fin catalogo grid*/
 
 /* novedades */
@@ -334,7 +330,7 @@ header {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #fff;
+    background-color: rgba(0, 0, 0, 0.492);
     border: 1px solid #ddd;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -449,7 +445,7 @@ footer {
 
     text-align: center;
 
-    background-color: #f4f4f4;
+    background-color: rgba(0, 0, 0, 0.492);
 
     color: #666;
 
