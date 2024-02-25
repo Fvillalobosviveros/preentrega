@@ -1,8 +1,5 @@
 
 
-/* inicio imagen de fondo*/
-
-/*fin imagen de fondo*/
 
 /* Resto de tus estilos ... */
 
@@ -102,7 +99,17 @@ header, section, footer {
 
 }
 
+.catalogo{
+    background-color: #004080;
+    
 
+}
+
+.navcat{
+    color: #ddd;
+    background-color: #ddd;
+
+}
 
     
 /*fin catalogo grid*/
@@ -114,6 +121,14 @@ header, section, footer {
     text-align: center;
     padding: 20px;
 }
+
+.nov{
+    background-color: #004080;
+    
+
+}
+
+
 
 .libro-novedad {
     margin: 20px;
@@ -414,5 +429,7 @@ footer {
     color: #004080;
 
 }
+
+
 
 
