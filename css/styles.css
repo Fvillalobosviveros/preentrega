@@ -83,32 +83,69 @@ header, section, footer {
 
 }
 
- /*inicio catalogo grid*/
- .grid-section {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Definimos 3 columnas */
-    grid-template-rows: repeat(3, auto); /* Definimos 3 filas con altura automática */
-    grid-gap: 5px; /* Tamaño de la separación entre las imágenes */
-    justify-items: center; /* Alinea las imágenes horizontalmente */
-    align-items: center; /* Alinea las imágenes verticalmente */
+ /*inicio catalogo */
+ body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
 }
 
-.grid-item{
-    border: 5px solid black;
-
-
+header, footer {
+    background-color: 004080;
+    padding: 15px;
+    text-align: center;
 }
 
-.catalogo{
-    background-color: #004080;
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 20px;
+}
+
+.column {
+    flex: 1;
+    min-width: 250px;
+}
+
+.item {
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+.item img {
+    max-width: 100%;
+    height: auto;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        flex-basis: 100%;
+    }
+}
+
+
+
+
     
-
-}
-
-
-
-    
-/*fin catalogo grid*/
+/*fin catalogo*/
 
 /* novedades */
 
