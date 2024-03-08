@@ -1,3 +1,8 @@
+body{
+    background-image: url(../imagenes/biblio.jpg);
+
+}
+
 .navcat{
     color: white;
 
@@ -12,5 +17,11 @@
 
 .item:hover{
     background-color: blue;
+    transform: scale(1.1);
+}
+
+.item{
+    transition: 0,2s;
 
 }
+

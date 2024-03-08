@@ -1,4 +1,8 @@
 @charset "UTF-8";
+body {
+  background-image: url(../imagenes/biblio.jpg);
+}
+
 .navcat {
   color: white;
 }
@@ -9,6 +13,20 @@
 
 .item:hover {
   background-color: blue;
+  transform: scale(1.1);
+}
+
+.item {
+  transition: 0, 2s;
+}
+
+.libro-novedad:hover {
+  background-color: bisque;
+  transform: scale(1.1);
+}
+
+.item {
+  transition: 0, 2s;
 }
 
 /* Resto de tus estilos ... */
