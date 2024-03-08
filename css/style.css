@@ -1,4 +1,16 @@
 @charset "UTF-8";
+.navcat {
+  color: white;
+}
+
+.licat:hover {
+  background-color: blue;
+}
+
+.item:hover {
+  background-color: blue;
+}
+
 /* Resto de tus estilos ... */
 header, section, footer {
   margin: 20px auto;
