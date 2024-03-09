@@ -66,6 +66,8 @@ header {
 
 /* fin css style informacion pag. principal index*/
 
+/*banner1*/
+
 .banner{
     display: flex;
     flex-direction: column;
@@ -78,6 +80,55 @@ header {
     transform: scale(1.1);
 
 }
+
+/*banner1*/
+
+
+/*banner2*/
+
+.banner2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.banner2:hover{
+    transform: scale(1.1);
+
+}
+
+/*banner2*/
+
+
+/*video*/
+
+.video {
+    width: 100%;  /* Ancho completo del contenedor */
+    height: 100vh; /* Altura del viewport */
+    position: relative; /* Posición relativa para el posicionamiento absoluto del hijo */
+    overflow: hidden; /* Oculta cualquier cosa fuera de este contenedor */
+}
+
+.contenedor-video {
+    position: absolute; /* Posicionamiento absoluto */
+    top: 0;  /* Parte superior del contenedor */
+    left: 0; /* Parte izquierda del contenedor */
+    width: 100%;  /* Ancho completo */
+    height: 100%; /* Altura completa */
+}
+
+.contenedor-video video {
+    width: 100%;  /* Ancho completo del contenedor */
+    height: 100%; /* Altura completa del contenedor */
+    object-fit: cover; /* Asegura que el video cubra completamente el contenedor */
+}
+
+
+
+
+/*video*/
 
 .imagenes {
     display: flex;
