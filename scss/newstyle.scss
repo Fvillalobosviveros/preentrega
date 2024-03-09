@@ -25,7 +25,7 @@ header, section, footer {
 
  
 
-#imagenes {
+.imagenes {
 
     margin: 20px auto;
 
@@ -35,7 +35,7 @@ header, section, footer {
 
  
 
-#imagenes img {
+.imagenes img {
 
     max-width: 100%;
 
@@ -47,7 +47,7 @@ header, section, footer {
 
  
 
-#imagenes img:last-child {
+.imagenes img:last-child {
 
     margin-right: 0; /* Eliminamos el margen derecho para la última imagen */
 
@@ -83,69 +83,7 @@ header, section, footer {
 
 }
 
- /*inicio catalogo */
- body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-}
 
-header, footer {
-    background-color: 004080;
-    padding: 15px;
-    text-align: center;
-}
-
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    gap: 20px;
-    padding: 20px;
-}
-
-.column {
-    flex: 1;
-    min-width: 250px;
-}
-
-.item {
-    border: 1px solid #ddd;
-    margin-bottom: 20px;
-    padding: 15px;
-}
-
-.item img {
-    max-width: 100%;
-    height: auto;
-}
-
-button {
-    display: block;
-    margin: 20px auto;
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #0056b3;
-}
-
-@media screen and (max-width: 600px) {
-    .column {
-        flex-basis: 100%;
-    }
-}
-
-
-
-
-    
-/*fin catalogo*/
 
 /* novedades */
 
@@ -274,200 +212,6 @@ button:hover {
 
 
 
-
-
-
-
-
-
-/*inicio contacto*/
-
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'Montserrat', sans-serif;
-    box-sizing: border-box;
-    transition: 0.5s;
-}
-
-body{
-    height: 100vh;
-    width: 100%;
-}
-
-.contact{
-    height: 100%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #004080;
-}
-
-.contact__image-wrapper{
-    height: 100%;
-    width: 50%;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.contact__image{
-    width: 100%;
-}
-
-.contact__right-side{
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-direction: column;
-    padding:0 7.3% 0 4.7%;
-    width: 50%;
-}
-
-.contact__title{
-    font-size: 100px;
-    font-family: 'Bellefair', serif;
-    font-weight: 400;
-    margin-bottom: 70px;
-    text-transform: uppercase;
-}
-
-.contact__form-wrapper, .contact__input-line{
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-direction: column;
-    width: 100%;
-}
-
-.contact__input-line{
-    margin-bottom: 45px;
-}
-
-.contact__label{
-    font-size: 18px;
-    font-weight: 600;
-}
-
-.contact__input{
-    height: 30px;
-    outline: none;
-    padding: 5px 0;
-    border-bottom: 2px solid #121212;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    width: 100%;
-    color: #121212;
-    background-color: transparent;
-}
-
-.contact__input--textarea{
-    height: 100px;
-    outline: none;
-    padding: 5px 0;
-    border-bottom: 2px solid #121212;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    width: 100%;
-    color: #121212;
-    resize: none;
-    background-color: transparent;
-}
-
-.contact__submit-button{
-    padding: 18px 55px;
-    background-color: #121212;
-    border-radius: 50px;
-    color: #f2f2f2;
-    font-weight: 600;
-    border: none;
-    font-size: 18px;
-    cursor: pointer;
-}
-
-.contact__submit-button:hover{
-    background-color: #2e2e2e;
-}
-
-/*fin contacto*/
-
-
-
-
- /*css style informacion pag. principal index*/
-
- body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #004080;
-    color: white;
-}
-
-header {
-    
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-}
-
-#libros-destacados, #novedades{
-    max-width: 800px;
-
-}
-
-.container {
-    margin: 20px auto;
-    padding: 20px;
-    background-color: rgba(0, 0, 0, 0.492);
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-
-.descripcion h2 {
-    color: white;
-    font-size: 28px;
-    margin-bottom: 10px;
-}
-
-.descripcion span {
-    font-weight: bold;
-    color: white;
-}
-
-.descripcion p {
-    font-size: 16px;
-    line-height: 1.6;
-    color: white;
-}
-
-.destacado, .explora {
-    margin-top: 30px;
-}
-
-.destacado h3, .explora h3 {
-    color: white;
-    font-size: 24px;
-    margin-bottom: 10px;
-}
-
-.destacado p, .explora p {
-    font-size: 16px;
-    line-height: 1.6;
-    color: white;
-}
-.bodyindex{
-    background-color: #004080;
-
-}
-
-/* fin css style informacion pag. principal index*/
 
 h1, h2 {
 

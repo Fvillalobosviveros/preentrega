@@ -1,72 +1,4 @@
 @charset "UTF-8";
-body {
-  background-image: url(../imagenes/biblio.jpg);
-}
-
-.navcat {
-  color: white;
-}
-
-.licat:hover {
-  background-color: blue;
-}
-
-.item:hover {
-  background-color: blue;
-  transform: scale(1.1);
-}
-
-.item {
-  transition: 0, 2s;
-}
-
-.libro-novedad:hover {
-  background-color: bisque;
-  transform: scale(1.1);
-}
-
-.item {
-  transition: 0, 2s;
-}
-
-/* Resto de tus estilos ... */
-header, section, footer {
-  margin: 20px auto;
-  padding: 20px;
-  background-color: rgba(0, 0, 0, 0.492);
-  border: 1px solid #ddd;
-}
-
-/* ... (Estilos previos) ... */
-#imagenes {
-  margin: 20px auto;
-  text-align: center;
-}
-
-#imagenes img {
-  max-width: 100%;
-  height: auto;
-  margin-right: 100px; /* Agregamos un margen derecho de 20px entre las imágenes */
-}
-
-#imagenes img:last-child {
-  margin-right: 0; /* Eliminamos el margen derecho para la última imagen */
-}
-
-/* ... (Estilos posteriores) ... */
-/* Estilos para las nuevas secciones */
-.nueva-seccion {
-  margin: 20px auto;
-  padding: 20px;
-  background-color: #e6e6e6;
-  border: 2px solid #004080;
-  border-radius: 8px;
-}
-
-.nueva-seccion h2 {
-  color: #004080;
-}
-
 /*inicio catalogo */
 body {
   font-family: Arial, sans-serif;
@@ -125,118 +57,25 @@ button:hover {
   }
 }
 /*fin catalogo*/
-/* novedades */
-/* Estilos para la sección de novedades */
-#novedades {
-  text-align: center;
-  padding: 20px;
+body {
+  background-image: url(../imagenes/biblio.jpg);
 }
 
-.nov {
-  background-color: #004080;
-}
-
-.libro-novedad {
-  margin: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-  border: 2px solid #004080;
-  border-radius: 8px;
-  overflow: hidden;
-  background-color: #f7f7f7; /* Añade un fondo de color al contenedor */
-}
-
-.libro-novedad img {
-  max-width: 100%;
-  height: auto;
-  margin-right: 10px;
-  border-radius: 8px 0 0 8px;
-}
-
-.libro-novedad .informacion {
-  text-align: left;
-  padding: 10px;
-}
-
-.libro-novedad h3 {
-  color: #004080;
-  font-size: 20px;
-  margin-bottom: 10px;
-}
-
-.libro-novedad p {
-  font-size: 16px;
-  line-height: 1.6;
-  color: #555;
-}
-
-/* fin novedades */
-/*inicio libros destacados*/
-/* Agrega estilos específicos para la descripción del libro */
-.descripcion-libro {
-  font-size: 18px;
-  line-height: 1.6;
+.navcat {
   color: white;
-  margin-top: 10px; /* Añade espacio entre el título y la descripción */
 }
 
-.libro-destacado {
-  display: flex;
-  margin-bottom: 30px;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  overflow: hidden;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+.licat:hover {
+  background-color: blue;
 }
 
-.libro-destacado .imagen {
-  flex: 1;
+.item:hover {
+  background-color: blue;
+  transform: scale(1.1);
 }
 
-.libro-destacado img {
-  width: 100%;
-  height: auto;
-  border-radius: 8px 0 0 8px;
-}
-
-.libro-destacado .informacion {
-  flex: 1;
-  padding: 20px;
-}
-
-.libro-destacado h3 {
-  color: #004080;
-  font-size: 28px;
-  margin-bottom: 10px;
-}
-
-/* Estilos adicionales para la letra bonita y el color en la descripción */
-.descripcion-libro {
-  font-family: "Georgia", serif; /* Cambia la fuente a Georgia para un aspecto más elegante */
-  color: white;
-  font-size: 18px;
-  line-height: 1.6;
-  margin-top: 10px;
-}
-
-/*fin libros destacados*/
-/* Ajustes adicionales para el botón "Volver al Menú Principal" */
-button {
-  display: block;
-  margin: 20px auto;
-  padding: 12px;
-  font-size: 18px;
-  background-color: #004080;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-button:hover {
-  background-color: #002d4d;
+.item {
+  transition: 0, 2s;
 }
 
 /*inicio contacto*/
@@ -352,72 +191,175 @@ body {
 }
 
 /*fin contacto*/
-/*css style informacion pag. principal index*/
-body {
-  font-family: "Arial", sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #004080;
-  color: white;
-}
-
-header {
-  color: #fff;
-  padding: 20px;
-  text-align: center;
-}
-
-#libros-destacados, #novedades {
+#libros-destacados {
   max-width: 800px;
 }
 
-.container {
+#novedades {
+  max-width: 800px;
+}
+
+.libro-novedad:hover {
+  background-color: bisque;
+  transform: scale(1.1);
+}
+
+.item {
+  transition: 0, 2s;
+}
+
+/* Resto de tus estilos ... */
+header, section, footer {
   margin: 20px auto;
   padding: 20px;
   background-color: rgba(0, 0, 0, 0.492);
   border: 1px solid #ddd;
+}
+
+/* ... (Estilos previos) ... */
+.imagenes {
+  margin: 20px auto;
+  text-align: center;
+}
+
+.imagenes img {
+  max-width: 100%;
+  height: auto;
+  margin-right: 100px; /* Agregamos un margen derecho de 20px entre las imágenes */
+}
+
+.imagenes img:last-child {
+  margin-right: 0; /* Eliminamos el margen derecho para la última imagen */
+}
+
+/* ... (Estilos posteriores) ... */
+/* Estilos para las nuevas secciones */
+.nueva-seccion {
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #e6e6e6;
+  border: 2px solid #004080;
   border-radius: 8px;
+}
+
+.nueva-seccion h2 {
+  color: #004080;
+}
+
+/* novedades */
+/* Estilos para la sección de novedades */
+#novedades {
+  text-align: center;
+  padding: 20px;
+}
+
+.nov {
+  background-color: #004080;
+}
+
+.libro-novedad {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  border: 2px solid #004080;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #f7f7f7; /* Añade un fondo de color al contenedor */
+}
+
+.libro-novedad img {
+  max-width: 100%;
+  height: auto;
+  margin-right: 10px;
+  border-radius: 8px 0 0 8px;
+}
+
+.libro-novedad .informacion {
+  text-align: left;
+  padding: 10px;
+}
+
+.libro-novedad h3 {
+  color: #004080;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.libro-novedad p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #555;
+}
+
+/* fin novedades */
+/*inicio libros destacados*/
+/* Agrega estilos específicos para la descripción del libro */
+.descripcion-libro {
+  font-size: 18px;
+  line-height: 1.6;
+  color: white;
+  margin-top: 10px; /* Añade espacio entre el título y la descripción */
+}
+
+.libro-destacado {
+  display: flex;
+  margin-bottom: 30px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.descripcion h2 {
-  color: white;
+.libro-destacado .imagen {
+  flex: 1;
+}
+
+.libro-destacado img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px 0 0 8px;
+}
+
+.libro-destacado .informacion {
+  flex: 1;
+  padding: 20px;
+}
+
+.libro-destacado h3 {
+  color: #004080;
   font-size: 28px;
   margin-bottom: 10px;
 }
 
-.descripcion span {
-  font-weight: bold;
+/* Estilos adicionales para la letra bonita y el color en la descripción */
+.descripcion-libro {
+  font-family: "Georgia", serif; /* Cambia la fuente a Georgia para un aspecto más elegante */
   color: white;
-}
-
-.descripcion p {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.6;
-  color: white;
+  margin-top: 10px;
 }
 
-.destacado, .explora {
-  margin-top: 30px;
-}
-
-.destacado h3, .explora h3 {
-  color: white;
-  font-size: 24px;
-  margin-bottom: 10px;
-}
-
-.destacado p, .explora p {
-  font-size: 16px;
-  line-height: 1.6;
-  color: white;
-}
-
-.bodyindex {
+/*fin libros destacados*/
+/* Ajustes adicionales para el botón "Volver al Menú Principal" */
+button {
+  display: block;
+  margin: 20px auto;
+  padding: 12px;
+  font-size: 18px;
   background-color: #004080;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
-/* fin css style informacion pag. principal index*/
+button:hover {
+  background-color: #002d4d;
+}
+
 h1, h2 {
   color: white;
   text-align: center;
@@ -477,6 +419,111 @@ footer {
 
 .seccion-cuadro h2 {
   color: #004080;
+}
+
+/*css style informacion pag. principal index*/
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #004080;
+  color: white;
+}
+
+header {
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.container {
+  margin: 20px auto;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.492);
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.descripcion h2 {
+  color: white;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.descripcion span {
+  font-weight: bold;
+  color: white;
+}
+
+.descripcion p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: white;
+}
+
+.destacado, .explora {
+  margin-top: 30px;
+}
+
+.destacado h3, .explora h3 {
+  color: white;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.destacado p, .explora p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: white;
+}
+
+.bodyindex {
+  background-color: #004080;
+}
+
+/* fin css style informacion pag. principal index*/
+.banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.banner:hover {
+  transform: scale(1.1);
+}
+
+.imagenes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+  padding: 20px;
+}
+
+.indeximg {
+  flex: 1;
+  min-width: 250px;
+}
+
+.indeximg {
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+  padding: 15px;
+}
+
+.indeximg {
+  max-width: 100%;
+  height: auto;
+}
+
+.indeximg:hover {
+  background-color: blue;
+  transform: scale(1.1);
+}
+
+.indeximg {
+  transition: 0, 2s;
 }
 
 /*# sourceMappingURL=style.css.map */

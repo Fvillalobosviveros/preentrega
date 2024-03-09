@@ -1,0 +1,117 @@
+ /*css style informacion pag. principal index*/
+
+ body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #004080;
+    color: white;
+}
+
+header {
+    
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+.container {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.492);
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.descripcion h2 {
+    color: white;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.descripcion span {
+    font-weight: bold;
+    color: white;
+}
+
+.descripcion p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: white;
+}
+
+.destacado, .explora {
+    margin-top: 30px;
+}
+
+.destacado h3, .explora h3 {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.destacado p, .explora p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: white;
+}
+.bodyindex{
+    background-color: #004080;
+
+}
+
+/* fin css style informacion pag. principal index*/
+
+.banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.banner:hover{
+    transform: scale(1.1);
+
+}
+
+.imagenes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 20px;
+}
+
+.indeximg {
+    flex: 1;
+    min-width: 250px;
+}
+
+
+.indeximg {
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+.indeximg {
+    max-width: 100%;
+    height: auto;
+}
+
+.indeximg:hover{
+    background-color: blue;
+    transform: scale(1.1);
+}
+
+.indeximg{
+    transition: 0,2s;
+
+}
+
+
