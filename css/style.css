@@ -270,6 +270,13 @@ body {
   max-width: 800px;
 }
 
+/*hover imagenes*/
+.libro-destacado:hover {
+  background-color: beige;
+  transform: scale(1.1);
+}
+
+/*hover imagenes*/
 /*Categoría / lista*/
 .boxlist {
   margin-bottom: 20px;
