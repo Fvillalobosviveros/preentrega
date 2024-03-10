@@ -78,8 +78,18 @@ body {
   transition: 0, 2s;
 }
 
-/*Estilos Parrafo*/
-/*Estilos Parrafo*/
+/*hover banner*/
+.banner3:hover {
+  transform: scale(1.1);
+  transition: 0.2s;
+}
+
+.banner4:hover {
+  transform: scale(1.1);
+  transition: 0.2s;
+}
+
+/*Hover banner*/
 /*inicio contacto*/
 * {
   margin: 0;
