@@ -78,6 +78,8 @@ body {
   transition: 0, 2s;
 }
 
+/*Estilos Parrafo*/
+/*Estilos Parrafo*/
 /*inicio contacto*/
 * {
   margin: 0;
@@ -298,6 +300,7 @@ h3 {
 .imgder:hover {
   transform: scale(1.2); /* Aumenta el tamaño de la imagen en hover */
   border: solid blue;
+  background-color: beige;
 }
 
 /*izq*/
@@ -315,6 +318,7 @@ h3 {
 .imgizq:hover {
   transform: scale(1.2); /* Aumenta el tamaño de la imagen en hover */
   border: solid blue;
+  background-color: beige;
 }
 
 /*Imagenes derecha izquierda Novedades*/
