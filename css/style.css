@@ -260,8 +260,64 @@ body {
   max-width: 800px;
 }
 
-/*estilos carrusel*/
-/*estilos carrusel*/
+/*Categoría / lista*/
+.boxlist {
+  margin-bottom: 20px;
+  float: left;
+  border-top: 0px;
+}
+
+.divul .boxul li {
+  display: flex;
+  padding: 0px 10px 0px 10px;
+  font-size: 0.8em;
+  background: none;
+  border: none;
+  font-size: 10pt;
+  margin: 2px 0px;
+  cursor: pointer;
+}
+
+.divul {
+  height: auto;
+  width: auto;
+}
+
+.boxul {
+  float: left;
+}
+
+.boxlist {
+  display: block;
+  padding: 0 0 5px 20px;
+  color: #ff3c00;
+  background-color: transparent;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 1.3em;
+  letter-spacing: 0.05em;
+  border: none;
+  margin-top: 10px;
+}
+
+.boxli:hover {
+  background-color: whitesmoke;
+  transform: scale(1.1);
+}
+
+.divul {
+  display: block;
+  padding: 0 0 5px 9px;
+  color: whitesmoke;
+  background-color: transparent;
+  font-weight: 800;
+  font-size: 1.3em;
+  letter-spacing: 0.05em;
+  border: none;
+  margin-top: 10px;
+}
+
+/*Categoría / lista*/
 #novedades {
   max-width: 800px;
 }
