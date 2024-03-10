@@ -112,3 +112,78 @@ body{
 }
 
 /*fin contacto*/
+
+
+
+/*responsive*/
+
+/* Estilos Generales */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column; /* Cambiado a columna para móviles */
+    justify-content: center;
+    align-items: center;
+    background-color: #004080;
+    padding: 20px; /* Agregado para espacio interno */
+}
+
+.contact__image-wrapper {
+    width: 100%; /* Cambiado para móviles */
+    overflow: hidden;
+}
+
+.contact__image {
+    width: 100%;
+    height: auto; /* Agregado para mantener la proporción de la imagen */
+}
+
+.contact__right-side {
+    width: 100%; /* Cambiado para móviles */
+    padding: 20px; /* Ajustado para móviles */
+}
+
+.contact__title {
+    font-size: 2.5rem; /* Tamaño ajustado para móviles */
+    margin-bottom: 30px; /* Ajustado para móviles */
+}
+
+
+/* Media Queries para Escritorio */
+@media (min-width: 768px) {
+    .contact {
+        flex-direction: row; /* Fila para escritorio */
+        height: 100%;
+    }
+
+    .contact__image-wrapper {
+        width: 50%; /* 50% para escritorio */
+    }
+
+    .contact__right-side {
+        width: 50%; /* 50% para escritorio */
+        padding: 0 7.3% 0 4.7%;
+    }
+
+    .contact__title {
+        font-size: 100px; /* Tamaño original para escritorio */
+        margin-bottom: 70px;
+    }
+
+
+}
+
+
+/*responsive*/
