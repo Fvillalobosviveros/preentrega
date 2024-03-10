@@ -272,7 +272,8 @@ body {
 
 /*hover imagenes*/
 .libro-destacado:hover {
-  background-color: beige;
+  color: black;
+  background-color: blanchedalmond;
   transform: scale(1.1);
 }
 
