@@ -327,6 +327,26 @@ body {
   margin-top: 10px;
 }
 
+/* Estilos base para la lista */
+.boxli {
+  margin-bottom: 10px; /* Espaciado entre elementos */
+  /* Otros estilos básicos aquí */
+}
+
+/* Media query para pantallas medianas (tabletas) */
+@media (max-width: 768px) {
+  .boxli {
+    font-size: 14px; /* Tamaño de fuente más pequeño */
+    margin-bottom: 8px; /* Menos espaciado entre elementos */
+  }
+}
+/* Media query para pantallas pequeñas (teléfonos móviles) */
+@media (max-width: 480px) {
+  .boxli {
+    font-size: 12px; /* Tamaño de fuente aún más pequeño */
+    margin-bottom: 5px; /* Menos espaciado entre elementos */
+  }
+}
 /*Categoría / lista*/
 #novedades {
   max-width: 800px;
