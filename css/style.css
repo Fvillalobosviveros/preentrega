@@ -210,6 +210,10 @@ body {
   transition: 0, 2s;
 }
 
+h3 {
+  text-align: center;
+}
+
 /* Resto de tus estilos ... */
 header, section, footer {
   margin: 20px auto;
